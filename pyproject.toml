@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "redditpersona"
+version = "1.0.0"
+description = "RedditPersona benchmark — collect, group, train, evaluate"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.setuptools]
+py-modules = ["config", "run"]
+packages = [
+    "collection",
+    "profiles",
+    "grouping",
+    "anonymization",
+    "training",
+    "evaluation",
+    "utils",
+]
