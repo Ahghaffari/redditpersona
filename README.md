@@ -189,10 +189,12 @@ If you use RedditPersona in your research, please cite our paper (currently unde
 
 ```bibtex
 @article{ghaffari2026redditpersona,
-  title   = {{RedditPersona}: A Modular Framework for Community-Conditioned {LLM} Adaptation from {Reddit}},
-  author  = {Ghaffari, Amirhossein and Goodarzi, Ali and Nguyen, Huong and
-             Hosio, Simo and Lov{\'e}n, Lauri and Gilman, Ekaterina},
-  year    = {2026},
-  note    = {Under review}
+      title={RedditPersona: A Modular Framework for Community-Conditioned LLM Adaptation from Reddit}, 
+      author={Amirhossein Ghaffari and Ali Goodarzi and Huong Nguyen and Simo Hosio and Lauri Lovén and Ekaterina Gilman},
+      year={2026},
+      eprint={2606.06027},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2606.06027}, 
 }
 ```
